@@ -9,7 +9,7 @@ conn = psycopg2.connect(
     host="localhost",
     database="Scrapping",     
     user="postgres",        
-    password="new_password"     
+    password="__"     
 )
 cursor = conn.cursor()
 
